@@ -6,7 +6,7 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () =>
-      import('./components/card/card.module').then((m) => m.CardModule),
+      import('./microfrontends/products/products.module').then((m) => m.ProductsModule),
   },
 ];
 

@@ -5,7 +5,7 @@ module.exports = withModuleFederationPlugin({
   name: 'remote',
 
   exposes: {
-    './CardModule': './src/app/components/card/card.module.ts',
+    './ProductsModule': './src/app/microfrontends/products/products.module.ts',
   },
 
   shared: {

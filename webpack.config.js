@@ -12,6 +12,3 @@ module.exports = withModuleFederationPlugin({
     ...shareAll({ singleton: true, strictVersion: true, requiredVersion: 'auto' }),
   },
 });
-
-/* moduleFederationConfig.output.publicPath = "http://localhost:4201/";
-module.exports = moduleFederationConfig; */

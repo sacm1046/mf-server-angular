@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
+import { CardModule } from './components/card/card.module';
 import { ProductsComponent } from './microfrontends/products/products.component';
 
 @NgModule({
@@ -12,6 +13,7 @@ import { ProductsComponent } from './microfrontends/products/products.component'
   imports: [
     BrowserModule,
     AppRoutingModule,
+    CardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

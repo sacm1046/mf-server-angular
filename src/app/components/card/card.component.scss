@@ -1,0 +1,12 @@
+.card {
+  &__container {
+    box-shadow: 5px 5px 15px rgb(225, 225, 225);
+    height: 150px;
+    width: 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

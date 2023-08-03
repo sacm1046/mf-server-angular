@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Input, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CardComponent } from './card.component';
 
@@ -13,4 +13,6 @@ import { CardComponent } from './card.component';
     CardComponent
   ]
 })
-export class CardModule {}
+export class CardModule {
+  @Input() text: string = ""
+}
